@@ -8,10 +8,6 @@ import { NgForm } from '@angular/forms';
 })
 export class StudentLoginComponent {
   onsubmit(form:NgForm){
-    if (form.valid) {
-      console.log('Form Submitted!', form.value);
-    } else {
-      console.log('Form is invalid');
-    }
+      console.log(form)
   }
 }
